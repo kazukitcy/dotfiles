@@ -27,7 +27,7 @@ packages:
   - name: jesseduffield/lazygit@v0.48.0
   - name: JohnnyMorganz/StyLua@v0.20.0
   - name: junegunn/fzf@v0.60.2
-  - name: knqyf263/pet@v0.9.1
+  - name: knqyf263/pet@v1.0.1
   - name: kubernetes/kubectl@v1.27.12
   - name: kubernetes-sigs/kind@v0.26.0
   - name: kubernetes-sigs/kubebuilder@v4.1.1
