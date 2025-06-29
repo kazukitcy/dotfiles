@@ -14,13 +14,14 @@ shell = "zsh"
 
 [plugins]
 
-[plugins.fzf]
-inline = 'eval "$(fzf --zsh)"'
-
 [plugins.local-plugins]
 local = "~/.config/zsh/"
 use   = ["plugins/*.zsh"]
 apply = ["source"]
+
+[plugins.fzf]
+github = "junegunn/fzf"
+use = ["*.zsh"]
 
 [plugins.mise]
 inline = 'eval "$(mise activate zsh)"'
