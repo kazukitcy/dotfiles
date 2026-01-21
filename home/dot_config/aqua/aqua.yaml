@@ -22,7 +22,7 @@ packages:
   - name: cue-lang/cue@v0.12.0
   - name: dandavison/delta@0.18.2
   - name: go-task/task@v3.42.1
-  - name: google/yamlfmt@v0.16.0
+  - name: google/yamlfmt@v0.21.0
   - name: itchyny/gojq@v0.12.18
   - name: jesseduffield/lazygit@v0.48.0
   - name: JohnnyMorganz/StyLua@v2.1.0
