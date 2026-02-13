@@ -19,7 +19,7 @@ packages:
   # - name: sharkdp/bat@v0.25.0
   - name: anthropics/claude-code@v2.1.41
   - name: aws/aws-cli@2.33.3
-  - name: bufbuild/buf@v1.64.0
+  - name: bufbuild/buf@v1.65.0
   - name: cue-lang/cue@v0.12.0
   - name: dandavison/delta@0.18.2
   - name: go-task/task@v3.42.1
