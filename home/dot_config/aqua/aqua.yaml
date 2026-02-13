@@ -20,7 +20,7 @@ packages:
   - name: anthropics/claude-code@v2.1.41
   - name: aws/aws-cli@2.33.21
   - name: bufbuild/buf@v1.65.0
-  - name: cue-lang/cue@v0.12.0
+  - name: cue-lang/cue@v0.15.4
   - name: dandavison/delta@0.18.2
   - name: go-task/task@v3.42.1
   - name: google/yamlfmt@v0.21.0
