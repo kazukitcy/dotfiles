@@ -26,7 +26,7 @@ packages:
   - name: google/yamlfmt@v0.21.0
   - name: itchyny/gojq@v0.12.18
   - name: jesseduffield/lazygit@v0.59.0
-  - name: JohnnyMorganz/StyLua@v2.1.0
+  - name: JohnnyMorganz/StyLua@v2.3.1
   - name: junegunn/fzf@v0.62.0
   - name: knqyf263/pet@v1.0.1
   - name: kubernetes/kubectl@v1.27.12
