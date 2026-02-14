@@ -33,7 +33,7 @@ packages:
   - name: kubernetes-sigs/kind@v0.31.0
   - name: kubernetes-sigs/kubebuilder@v4.1.1
     registry: local
-  - name: kubernetes-sigs/kustomize@kustomize/v5.6.0
+  - name: kubernetes-sigs/kustomize@kustomize/v5.8.1
   - name: kubernetes-sigs/krew@v0.4.5
   - name: microsoft/ripgrep-prebuilt@v13.0.0-10
   - name: mikefarah/yq@v4.50.1
