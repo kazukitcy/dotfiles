@@ -18,7 +18,7 @@ packages:
   # - name: stedolan/jq@jq-1.6
   # - name: sharkdp/bat@v0.26.1
   - name: anthropics/claude-code@v2.1.76
-  - name: aws/aws-cli@2.33.21
+  - name: aws/aws-cli@2.34.9
   - name: bufbuild/buf@v1.66.1
   - name: cue-lang/cue@v0.16.0
   - name: dandavison/delta@0.18.2
