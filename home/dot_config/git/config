@@ -1,8 +1,8 @@
 # This is Git's per-user configuration file.
 [user]
 # Please adapt and uncomment the following lines:
-	name = kazukt
-	email = kazuki.060525@gmail.com
+	name = Kazuki Tsuchiya
+	email = kazukitcy17@gmail.com
 
 [core]
 	# https://dandavison.github.io/delta/environment-variables.html
