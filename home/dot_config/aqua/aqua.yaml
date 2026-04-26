@@ -38,6 +38,6 @@ packages:
   - name: kubernetes-sigs/krew@v0.5.0
   - name: microsoft/ripgrep-prebuilt@v15.0.1
   - name: mikefarah/yq@v4.52.4
-  - name: openai/codex@rust-v0.114.0
+  - name: openai/codex@rust-v0.125.0
   - name: starship/starship@v1.24.2
   - name: x-motemen/ghq@v1.9.4
