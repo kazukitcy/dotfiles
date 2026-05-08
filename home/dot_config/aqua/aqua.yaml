@@ -17,7 +17,7 @@ packages:
   # - name: rossmacarthur/sheldon@0.8.5
   # - name: stedolan/jq@jq-1.6
   # - name: sharkdp/bat@v0.26.1
-  - name: anthropics/claude-code@v2.1.126
+  - name: anthropics/claude-code@v2.1.133
   - name: ast-grep/ast-grep@0.42.1
   - name: aws/aws-cli@2.34.41
   - name: bufbuild/buf@v1.69.0
