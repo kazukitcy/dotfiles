@@ -28,10 +28,10 @@ packages:
   - name: go-task/task@v3.50.0
   - name: google/yamlfmt@v0.21.0
   - name: itchyny/gojq@v0.12.19
-  - name: jesseduffield/lazygit@v0.61.1
+  - name: jesseduffield/lazygit@v0.62.2
   - name: JohnnyMorganz/StyLua@v2.5.2
   - name: junegunn/fzf@v0.73.1
-  - name: jesseduffield/lazygit@v0.61.1
+  - name: jesseduffield/lazygit@v0.62.2
   - name: JohnnyMorganz/StyLua@v2.5.2
   - name: junegunn/fzf@v0.73.1
   - name: k1LoW/mo@v1.5.5
