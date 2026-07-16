@@ -45,5 +45,5 @@ packages:
   - name: microsoft/ripgrep-prebuilt@v15.0.1
   - name: mikefarah/yq@v4.53.3
   - name: openai/codex@rust-v0.144.5
-  - name: starship/starship@v1.25.1
+  - name: starship/starship@v1.26.0
   - name: x-motemen/ghq@v1.10.1
