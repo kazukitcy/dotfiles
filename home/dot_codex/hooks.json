@@ -1,0 +1,29 @@
+{
+  "hooks": {
+    "PostToolUse": [
+      {
+        "matcher": "apply_patch|Edit|Write|NotebookEdit",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "\"$HOME\"/.codex/hooks/mark-mutation.sh",
+            "timeout": 15,
+            "statusMessage": "Recording mutation"
+          }
+        ]
+      }
+    ],
+    "Stop": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "\"$HOME\"/.codex/hooks/verify-before-stop.sh",
+            "timeout": 15,
+            "statusMessage": "Checking whether verification is needed..."
+          }
+        ]
+      }
+    ]
+  }
+}
