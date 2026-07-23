@@ -1,0 +1,83 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(grep:*)",
+      "Bash(rg:*)",
+      "Bash(git status:*)",
+      "Bash(git diff:*)",
+      "Bash(git log:*)",
+      "Bash(git show:*)",
+      "Bash(git branch:*)",
+      "Bash(git blame:*)"
+    ],
+    "deny": [
+      "Bash(sudo:*)",
+      "Bash(git push --force:*)",
+      "Bash(git push -f:*)",
+      "Bash(git push --force-with-lease:*)"
+    ],
+    "ask": [
+      "Bash(rm:*)"
+    ]
+  },
+  "model": "claude-fable-5[1m]",
+  "enabledPlugins": {
+    "rust-analyzer-lsp@claude-plugins-official": true,
+    "codex@openai-codex": true,
+    "improve@improve": true,
+    "superpowers@claude-plugins-official": true
+  },
+  "extraKnownMarketplaces": {
+    "openai-codex": {
+      "source": {
+        "source": "github",
+        "repo": "openai/codex-plugin-cc"
+      }
+    }
+  },
+  "effortLevel": "medium",
+  "plansDirectory": "./plans",
+  "advisorModel": "fable",
+  // "sandbox": {
+  //   "enabled": true,
+  //   "failIfUnavailable": true,
+  //   "allowUnsandboxedCommands": true,
+  //   "filesystem": {
+  //     "denyRead": [
+  //       "~/"
+  //     ],
+  //     "allowRead": [
+  //       "~/.cargo/",
+  //       "~/.claude/",
+  //       "~/.codex/",
+  //       "~/.config/",
+  //       "~/.codex/config.toml",
+  //       "~/.local/share/",
+  //       "~/.rustup/",
+  //       "~/dev/"
+  //     ],
+  //     "allowWrite": [
+  //       "~/.codex/",
+  //       "~/.claude/",
+  //       "~/.local/share",
+  //       "~/.cargo/",
+  //       "/tmp/",
+  //       "/private/tmp/"
+  //     ]
+  //   }
+  // },
+  "hooks": {
+    "Stop": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "\"$HOME\"/.claude/hooks/verify-before-stop.sh",
+            "timeout": 15,
+            "statusMessage": "Checking whether verification is needed..."
+          }
+        ]
+      }
+    ]
+  }
+}
