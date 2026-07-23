@@ -36,7 +36,7 @@ packages:
   - name: junegunn/fzf@v0.74.0
   - name: k1LoW/mo@v1.6.3
   - name: knqyf263/pet@v1.0.1
-  - name: kubernetes/kubectl@v1.27.12
+  - name: kubernetes/kubectl@v1.36.3
   - name: kubernetes-sigs/kind@v0.31.0
   - name: kubernetes-sigs/kubebuilder@v4.1.1
     registry: local
