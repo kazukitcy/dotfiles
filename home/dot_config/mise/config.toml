@@ -14,7 +14,7 @@ rust = "latest"
 "aqua:aws/aws-cli" = { version = "2.36.38", symlink_bins = true }
 "aqua:bufbuild/buf" = "1.72.0"
 "aqua:casey/just" = "1.58.0"
-"aqua:cli/cli" = "2.99.0"
+"aqua:cli/cli" = "2.100.0"
 "aqua:cue-lang/cue" = "0.17.1"
 "aqua:dandavison/delta" = "0.19.2"
 "aqua:go-task/task" = "3.53.1"
