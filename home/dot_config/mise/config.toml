@@ -6,7 +6,7 @@ registry_floating = false
 # Core
 go = "1.27.0"
 node = "24.13.1"
-python = "3.14.6"
+python = "3.14.7"
 rust = "1.97.1"
 
 # Aqua
