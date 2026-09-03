@@ -19,7 +19,7 @@ packages:
   # - name: sharkdp/bat@v0.26.1
   - name: anthropics/claude-code@v2.1.251
   - name: ast-grep/ast-grep@0.45.2
-  - name: aws/aws-cli@2.36.34
+  - name: aws/aws-cli@2.36.38
   - name: bufbuild/buf@v1.72.0
   - name: casey/just@1.58.0
   - name: cli/cli@v2.98.0
