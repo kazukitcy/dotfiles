@@ -24,6 +24,18 @@
           }
         ]
       }
+    ],
+    "UserPromptSubmit": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "\"$HOME\"/.codex/hooks/inject-guardrails.sh",
+            "timeout": 15,
+            "statusMessage": "Injecting guardrails"
+          }
+        ]
+      }
     ]
   }
 }
