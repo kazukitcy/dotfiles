@@ -1,8 +1,40 @@
 {
   "$schema": "https://docs.renovatebot.com/renovate-schema.json",
   "extends": [
-    "config:base",
-    "github>aquaproj/aqua-renovate-config#2.13.0",
-    "github>aquaproj/aqua-renovate-config:file#2.13.0(home/dot_config/aqua/.*\\.ya?ml)"
+    "config:base"
+  ],
+  "packageRules": [
+    {
+      "matchManagers": ["mise"],
+      "matchDepNames": ["aqua:anthropics/claude-code"],
+      "overrideDatasource": "github-releases",
+      "overridePackageName": "anthropics/claude-code",
+      "extractVersion": "^v?(?<version>.+)$"
+    },
+    {
+      "matchManagers": ["mise"],
+      "matchDepNames": ["aqua:aws/aws-cli"],
+      "overrideDatasource": "github-tags",
+      "overridePackageName": "aws/aws-cli",
+      "extractVersion": "^v?(?<version>.+)$"
+    },
+    {
+      "matchManagers": ["mise"],
+      "matchDepNames": ["aqua:kubernetes-sigs/kustomize"],
+      "extractVersion": "^kustomize/v(?<version>.+)$"
+    },
+    {
+      "matchManagers": ["mise"],
+      "matchDepNames": ["aqua:kubernetes/kubernetes/kubectl"],
+      "overrideDatasource": "github-tags",
+      "overridePackageName": "kubernetes/kubernetes",
+      "extractVersion": "^v?(?<version>.+)$",
+      "allowedVersions": "!/-(alpha|beta|rc)/"
+    },
+    {
+      "matchManagers": ["mise"],
+      "matchDepNames": ["aqua:openai/codex"],
+      "extractVersion": "^rust-v(?<version>.+)$"
+    }
   ]
 }

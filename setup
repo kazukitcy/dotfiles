@@ -14,11 +14,6 @@ if [ -z "$(command -v rustup)" ]; then
     curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
 fi
 
-# Install aqua dependencies
-if type aqua > /dev/null 2>&1; then
-    aqua install --all
-fi
-
 # Install mise dependencies
 if type mise > /dev/null 2>&1; then
     mise install

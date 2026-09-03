@@ -14,6 +14,9 @@ shell = "zsh"
 
 [plugins]
 
+[plugins.mise]
+inline = 'eval "$(mise activate zsh)"'
+
 [plugins.local-plugins]
 local = "~/.config/zsh/"
 use   = ["plugins/*.zsh"]
@@ -22,9 +25,6 @@ apply = ["source"]
 [plugins.fzf]
 github = "junegunn/fzf"
 use = ["*.zsh"]
-
-[plugins.mise]
-inline = 'eval "$(mise activate zsh)"'
 
 [plugins.starship]
 inline = 'eval "$(starship init zsh)"'

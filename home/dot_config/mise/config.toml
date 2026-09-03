@@ -1,7 +1,37 @@
-[tools]
-go = "latest"
+[settings]
+registry_floating = false
 
+[tools]
+# Core
+go = "latest"
 node = "24"
 python = "3.14"
-
 rust = "latest"
+
+# Aqua
+"aqua:anthropics/claude-code" = "2.1.259"
+"aqua:ast-grep/ast-grep" = "0.45.2"
+"aqua:aws/aws-cli" = { version = "2.36.38", symlink_bins = true }
+"aqua:bufbuild/buf" = "1.72.0"
+"aqua:casey/just" = "1.58.0"
+"aqua:cli/cli" = "2.99.0"
+"aqua:cue-lang/cue" = "0.17.1"
+"aqua:dandavison/delta" = "0.19.2"
+"aqua:go-task/task" = "3.53.1"
+"aqua:google/yamlfmt" = "0.21.0"
+"aqua:itchyny/gojq" = "0.12.19"
+"aqua:jesseduffield/lazygit" = "0.63.1"
+"aqua:JohnnyMorganz/StyLua" = "2.5.2"
+"aqua:junegunn/fzf" = "0.74.3"
+"aqua:k1LoW/mo" = "1.6.7"
+"aqua:knqyf263/pet" = "1.0.1"
+"aqua:kubernetes-sigs/kind" = "0.31.0"
+"aqua:kubernetes-sigs/krew" = "0.5.0"
+"aqua:kubernetes-sigs/kubebuilder" = "4.1.1"
+"aqua:kubernetes-sigs/kustomize" = "5.8.1"
+"aqua:kubernetes/kubernetes/kubectl" = "1.27.12"
+"aqua:microsoft/ripgrep-prebuilt" = "15.0.1"
+"aqua:mikefarah/yq" = "4.53.6"
+"aqua:openai/codex" = "0.153.0"
+"aqua:starship/starship" = "1.26.0"
+"aqua:x-motemen/ghq" = "1.10.1"
