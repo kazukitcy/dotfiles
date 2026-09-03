@@ -5,6 +5,13 @@
   ],
   "packageRules": [
     {
+      "description": "Wait 14 days before updating core mise tools",
+      "matchManagers": ["mise"],
+      "matchDepNames": ["go", "node", "python", "rust"],
+      "minimumReleaseAge": "14 days",
+      "internalChecksFilter": "strict"
+    },
+    {
       "matchManagers": ["mise"],
       "matchDepNames": ["aqua:anthropics/claude-code"],
       "overrideDatasource": "github-releases",
