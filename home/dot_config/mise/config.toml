@@ -12,7 +12,7 @@ rust = "1.97.1"
 # Aqua
 "aqua:anthropics/claude-code" = "2.1.259"
 "aqua:ast-grep/ast-grep" = "0.45.3"
-"aqua:aws/aws-cli" = { version = "2.36.38", symlink_bins = true }
+"aqua:aws/aws-cli" = { version = "2.36.39", symlink_bins = true }
 "aqua:bufbuild/buf" = "1.72.0"
 "aqua:casey/just" = "1.58.0"
 "aqua:cli/cli" = "2.100.0"
