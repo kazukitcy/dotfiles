@@ -1,2 +1,3 @@
 .config/aqua
 .config/zsh/plugins/aqua.zsh
+.codex/hooks/verify-before-stop.sh

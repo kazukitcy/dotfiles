@@ -1,5 +1,17 @@
 {
   "hooks": {
+    "UserPromptSubmit": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "\"$HOME\"/.codex/hooks/inject-guardrails.sh",
+            "timeout": 15,
+            "statusMessage": "Injecting guardrails"
+          }
+        ]
+      }
+    ],
     "PostToolUse": [
       {
         "matcher": "apply_patch|Edit|Write|NotebookEdit",
@@ -18,21 +30,9 @@
         "hooks": [
           {
             "type": "command",
-            "command": "\"$HOME\"/.codex/hooks/verify-before-stop.sh",
+            "command": "\"$HOME\"/.codex/hooks/review-before-stop.sh",
             "timeout": 15,
-            "statusMessage": "Checking whether verification is needed..."
-          }
-        ]
-      }
-    ],
-    "UserPromptSubmit": [
-      {
-        "hooks": [
-          {
-            "type": "command",
-            "command": "\"$HOME\"/.codex/hooks/inject-guardrails.sh",
-            "timeout": 15,
-            "statusMessage": "Injecting guardrails"
+            "statusMessage": "Requesting review of the final result"
           }
         ]
       }
