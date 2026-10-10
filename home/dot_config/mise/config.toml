@@ -10,7 +10,7 @@ python = "3.14.7"
 rust = "1.98.1"
 
 # Aqua
-"aqua:anthropics/claude-code" = "2.1.291"
+"aqua:anthropics/claude-code" = "2.1.296"
 "aqua:ast-grep/ast-grep" = "0.45.3"
 "aqua:aws/aws-cli" = { version = "2.37.9", symlink_bins = true }
 "aqua:bufbuild/buf" = "1.73.0"
